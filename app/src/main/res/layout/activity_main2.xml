@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="80dp"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/editext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/boton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boton"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ClickHecho!"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+</LinearLayout>
